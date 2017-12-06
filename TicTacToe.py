@@ -63,6 +63,8 @@ def checkBoard(board):
 turn = 'X'
 move = ' '
 print('Type in "quit" to end game.')
+print('\nTo choose a position, type in which row(top, mid, low) followed by which column(-R, -M, -L')
+print('To move to the top left corner, you would type "top-L", bottom mid would be "low-M", without the quotes.')
 while move != 'quit':
     printBoard(theBoard)
     checkBoard(theBoard)
