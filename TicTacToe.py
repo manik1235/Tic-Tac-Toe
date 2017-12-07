@@ -47,7 +47,7 @@ def checkBoard(board):
     elif (board['top-M'] == 'O' and board['mid-M'] == 'O' and board['low-M'] == 'O'):
         print('O is winner!')
         raise SystemExit
-    elif (board['top-R'] == 'O' and board['mid-R'] == 'O' and board['low-r'] == 'O'):
+    elif (board['top-R'] == 'O' and board['mid-R'] == 'O' and board['low-R'] == 'O'):
         print('O is winner!')
         raise SystemExit
     elif (board['top-L'] == 'O' and board['top-M'] == 'O' and board['top-R'] == 'O'):
